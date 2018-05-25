@@ -1,0 +1,9 @@
+---
+applications:
+  - update
+parameters:
+  info:
+    name:
+      Age: 18
+      LastName: wei
+      firstName: xie

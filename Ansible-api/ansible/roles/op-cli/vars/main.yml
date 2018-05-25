@@ -1,0 +1,3 @@
+---
+op_cli_path_name: "{{ op_cli.path.name }}"
+op_cli_create_path_file : "{{ op_cli.path.file }}"

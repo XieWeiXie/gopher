@@ -1,0 +1,4 @@
+
+- hosts: op-cli_hosts
+  roles:
+  - "op-cli"

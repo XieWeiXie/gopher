@@ -1,0 +1,9 @@
+---
+applications:
+  - download
+parameters:
+  ssh:
+    info:
+      name: ssh-name
+      para: token
+      server: "127.0.0.1"

@@ -1,0 +1,11 @@
+---
+classes:
+  - update
+  - download
+  - op-cli
+parameters:
+  ip:
+    info:
+      info: localhost
+      net:
+      path: xiewei

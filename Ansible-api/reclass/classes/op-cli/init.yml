@@ -1,0 +1,8 @@
+---
+applications:
+  - op-cli
+parameters:
+  op_cli:
+    path:
+      name: "/home/xiewei/xiewei"
+      file: "/home/xiewei/xiewei.text"

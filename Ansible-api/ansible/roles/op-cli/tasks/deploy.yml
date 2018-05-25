@@ -1,0 +1,19 @@
+---
+- name: echo hello world
+  shell: "echo hello world"
+
+- name: is path exist
+  stat:
+    path: "{{ op_cli_path_name }}"
+  register: rt
+
+- name: debug
+  debug:
+    msg: rt.stat.exists
+
+- name: create path
+  file:
+    path: "{{ op_cli_create_path_file }}"
+    state: touch
+    mode: "u=rw,g=r,o=r"
+  when: not rt.stat.exists
